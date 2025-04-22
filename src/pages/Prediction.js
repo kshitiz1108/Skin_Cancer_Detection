@@ -15,11 +15,9 @@ import {
   useColorModeValue,
   Flex,
 } from '@chakra-ui/react';
-import cancerData from '../Cancerdata'; // Import the cancerData from data.js
-
+import cancerData from '../Cancerdata';
 const Footer = () => (
   <Box as="footer" py={4} textAlign="center" bg="gray.800" color="white" mt={10}>
-    <Text fontSize="sm">© 2024 Skin Cancer Detection. All rights reserved.</Text>
   </Box>
 );
 
@@ -45,7 +43,7 @@ const Prediction = () => {
     setLoading(true);
     try {
       const response = await axios.post('http://localhost:5000/predict', formData);
-      setPrediction(response.data); // Assuming response.data contains the predicted label
+      setPrediction(response.data); 
     } catch (error) {
       console.error('Error uploading the file', error);
     } finally {

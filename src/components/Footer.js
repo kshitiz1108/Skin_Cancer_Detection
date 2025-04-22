@@ -79,10 +79,7 @@ const Footer = () => {
         </Stack>
       </Flex>
 
-      {/* Copyright Notice */}
-      <Text textAlign="center" mt={6} fontSize="sm" color="gray.500">
-        © {new Date().getFullYear()} Skin Cancer Detection. All rights reserved.
-      </Text>
+    
     </Box>
   );
 };

@@ -1,9 +1,6 @@
 import React from 'react';
 import { Box, Heading, Text, Button, VStack, Image, Flex } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-// import cancerImage1 from './broken-image1.jpg';
-// import cancerImage2 from './broken-image2.jpg';
-// import cancerImage3 from './broken-image3.jpg';
 
 const Footer = () => (
   <Box as="footer" py={4} textAlign="center" bg="gray.800" color="white">
@@ -24,7 +21,6 @@ const Home = () => {
 
         <VStack spacing={8} align="start" maxW="800px" mx="auto">
           <Box>
-            <Image src='' alt="Cancer Awareness" borderRadius="md" mb={4} />
             <Heading as="h2" size="lg" mb={4}>
               What is Cancer?
             </Heading>
@@ -35,7 +31,6 @@ const Home = () => {
           </Box>
 
           <Box>
-            <Image src='' alt="Cancer Causes" borderRadius="md" mb={4} />
             <Heading as="h2" size="lg" mb={4}>
               Causes of Cancer
             </Heading>
@@ -47,7 +42,6 @@ const Home = () => {
           </Box>
 
           <Box>
-            <Image src='' alt="Cancer Statistics" borderRadius="md" mb={4} />
             <Heading as="h2" size="lg" mb={4}>
               Global Cancer Statistics
             </Heading>

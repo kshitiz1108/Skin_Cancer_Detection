@@ -9,7 +9,6 @@ const SkinCancerInfo = () => {
         Skin Cancer Information
       </Heading>
 
-      {/* Horizontal Carousel with Skin Images */}
       <HStack overflowX="scroll" spacing={4} mb={10} p={2}>
         {skinCancerData.map((cancer) => (
           <Box key={cancer.id} minW="200px" boxShadow="lg" borderRadius="md" p={3}>

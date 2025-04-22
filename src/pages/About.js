@@ -3,7 +3,6 @@ import { Box, Heading, Text, VStack, Flex } from '@chakra-ui/react';
 
 const Footer = () => (
   <Box as="footer" py={4} textAlign="center" bg="gray.800" color="white">
-    <Text fontSize="sm">© 2024 Skin Cancer Detection. All rights reserved.</Text>
   </Box>
 );
 
