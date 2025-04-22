@@ -26,3 +26,15 @@ Thumbs.db
 
 # Ignore requirements.txt
 requirements.txt
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VSCode settings (optional)
+.vscode/
